@@ -1,0 +1,25 @@
+name: ds-spark-utils
+channels:
+- default
+dependencies:
+- python=3.9
+- fsspec
+- s3fs
+- pandas
+- pyspark=3.5.0
+- pytest
+- openjdk=8
+- pyyaml
+- pip
+- pip:
+  - publicsuffix2
+  - onnxruntime
+  - sklearn
+  - skl2onnx
+  - kafka-python
+  - google-cloud-pubsub
+  - pyarrow
+  - tensorflow==2.5.0
+  - pyasn@git+https://github.com/hadiasghari/pyasn.git#egg=pyasn-1.6.2>=1.6.2
+  - yamllint
+
